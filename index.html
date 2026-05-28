@@ -681,35 +681,45 @@ nav.toc a:hover { border-bottom-color: var(--accent); }
   </figure>
 </section>
 
-<!-- ========== PRINCIPLES ========== -->
+<!-- ========== Q&A ========== -->
 <section id="principles">
-  <h2 class="section">06 · Field-tested principles</h2>
-  <h3 class="heading">What the Q&amp;A surfaced</h3>
+  <h2 class="section">06 · Audience Q&amp;A</h2>
+  <h3 class="heading">The eight questions worth replaying</h3>
+
+  <p>Verbatim audience questions from the live session, with the speakers' answers distilled to the essential takeaway.</p>
 
   <dl class="principles">
-    <dt>You are still the one who hits Send.</dt>
-    <dd>No automated sending. Cowork drafts; you edit; you stand by the final output. "Claude did that" is not an excuse for a bad Salesforce next step. (Travis)</dd>
+    <dt>Matt asks:</dt>
+    <dd style="font-style: italic; color: var(--ink); margin-bottom: 8px;">"As an IC running a strategic sales territory, my buyers are EVP / SVP at $50 billion banks who can smell AI-flavored outreach in two seconds — the old em-dash. Where's your team's line between 'Cowork drafts it and I send' versus 'Cowork drafts and I rewrite the voice'? And where have you been burned by that line being in the wrong place?"</dd>
+    <dd><b>Brittney:</b> Dictate into Claude — it learns your cadence and capitalization. End every draft prompt with <em>"stay as close to my voice as possible."</em> <b>Travis:</b> No automated send. Ever. However much it drafts versus I edit, I'm still the person who hits Send. Cowork helps with 90%; the human stays responsible for the last 10%.</dd>
 
-    <dt>Voice consistency: dictate into Claude, then ask it to mimic you.</dt>
-    <dd>Brittney's trick: she dictates to Claude so it learns her cadence, capitalization, tone. Then when she asks for a draft, she ends with <em>"stay as close to my voice as possible."</em></dd>
+    <dt>Emily asks Travis:</dt>
+    <dd style="font-style: italic; color: var(--ink); margin-bottom: 8px;">"Do you share skills across the team, or does everyone build their own? What's the tradeoff?"</dd>
+    <dd><b>Travis:</b> The answer is yes — both. People parallel-process and you end up with what he calls <em>"mushrooms in the forest"</em>: look under a rock and there are five new skills. That's fine — innovation comes from everywhere. Slack channels emerge for sharing; the best skills get blessed by sales productivity and promoted to official internal skills.</dd>
 
-    <dt>Sample at the start. Fibonacci frequency on quality checks.</dt>
-    <dd>More frequent verification at the beginning, less as you build trust. "Verify, then trust" — then later "trust and verify." (Travis)</dd>
+    <dt>Rahul asks:</dt>
+    <dd style="font-style: italic; color: var(--ink); margin-bottom: 8px;">"What's the core difference of a skill versus a project?"</dd>
+    <dd><b>Brittney:</b> A <b>skill</b> is a reusable workflow you run again and again (e.g. her weekly forecast). A <b>project</b> is a super-folder with persistent memory — dump all the Google Docs, Slacks, and context for one complicated deal in there, and every new conversation in that project remembers it. <b>Travis:</b> Skills work across any conversation; projects scope shared context to a specific deal or initiative.</dd>
 
-    <dt>Skill vs Project.</dt>
-    <dd><b>Skill</b> = a reusable workflow that works across any conversation. <b>Project</b> = a folder with persistent memory for a specific account or deal. Use projects when you'd otherwise re-paste context every time.</dd>
+    <dt>Elizabeth asks:</dt>
+    <dd style="font-style: italic; color: var(--ink); margin-bottom: 8px;">"When should we use Cowork instead of Claude Code?"</dd>
+    <dd><b>Both:</b> Same engine under the hood. Skills, MCP connectors, outputs — all interchangeable. Cowork is just friendlier — desktop GUI instead of terminal. Travis's analogy: <em>"It's more Windows than DOS."</em> Pick whichever surface you're comfortable in.</dd>
 
-    <dt>Cowork vs Claude Code.</dt>
-    <dd>Same engine, different surface. Skills, MCP connectors, and outputs are interchangeable. Cowork is "Windows to Claude Code's DOS." (Travis)</dd>
+    <dt>Anonymous asks:</dt>
+    <dd style="font-style: italic; color: var(--ink); margin-bottom: 8px;">"What is your degree of confidence in this information? Do you ever go back to the source to review it, or are you just happy with the output Cowork is producing?"</dd>
+    <dd><b>Travis:</b> <em>"Verify, then trust"</em> at the start; later <em>"trust and verify."</em> When he built the account-scoring routine, he sampled outputs heavily — caught queries pulling from the wrong Salesforce table — before putting it on rails. Frequency of quality checks should follow a Fibonacci curve: tight at the beginning, looser as confidence compounds.</dd>
 
-    <dt>Don't be precious about which skills survive.</dt>
-    <dd>Travis: "We have a lot of what I call <em>mushrooms in the forest</em> — look under a rock and there are five new skills." Let people cook. The best ones get blessed by sales productivity into official skills.</dd>
+    <dt>Brittney asks Travis:</dt>
+    <dd style="font-style: italic; color: var(--ink); margin-bottom: 8px;">"How else are you measuring the ROI of Cowork across your org, besides time saved? Any metrics you look at?"</dd>
+    <dd><b>Travis:</b> Revenue is the lagging indicator — he obsesses over leading ones. Specifically: (1) how many accounts an AE can go <em>deep</em> on ("velocity with depth"), (2) count of live customer conversations — he doesn't care about mass emails or Slacks, (3) whether every AE has a quarterly project to build a skill that automates their own workflow.</dd>
 
-    <dt>Model choice: Opus for the heavy lifts, Sonnet for the rest.</dt>
-    <dd>Brittney: Opus 4.7 for multi-turn complex skills (her morning digest, which writes follow-up prompts). Sonnet for one-off prep. Haiku for trivial. "Do you drive the Ferrari to the grocery store?"</dd>
+    <dt>Anonymous asks:</dt>
+    <dd style="font-style: italic; color: var(--ink); margin-bottom: 8px;">"As a leader, have you had the 'Claude did that' excuse from reps regarding subpar Salesforce updates? How do you level-set with reps on the expectation that they validate everything Claude does?"</dd>
+    <dd><b>Travis:</b> Yes, some reps are <em>"more AGI-pilled than others."</em> But the message is unambiguous: Claude is not the AE; we stand by the work irrespective of where it came from. His analogy: <em>"Waymo is driving, but we're still responsible if something goes wrong."</em> Human stays in the loop because humans are accountable for the output.</dd>
 
-    <dt>Measure leading indicators, not just revenue.</dt>
-    <dd>Travis tracks: how many accounts an AE can go <em>deep</em> on, count of live customer conversations (not mass emails or Slacks), and whether every AE has a quarterly skill-building project.</dd>
+    <dt>Anonymous asks Brittney:</dt>
+    <dd style="font-style: italic; color: var(--ink); margin-bottom: 8px;">"Do you recommend always using Opus 4.7 for Cowork tasks?"</dd>
+    <dd><b>Travis (interjecting):</b> <em>"Do you like driving the Ferrari to the grocery store?"</em> <b>Brittney:</b> Opus for the multi-turn complex skills — her daily digest, where Claude has to write its own follow-up prompts. Sonnet for everyday call prep. Haiku for trivial. Use the mix.</dd>
   </dl>
 </section>
 
